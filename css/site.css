@@ -1,0 +1,24 @@
+.address{
+    font-size: .8rem;
+} 
+/* 
+This will only have the address line at a smaller font for the small breakpoints such as mobile devices to fit better on screen
+*/
+
+@media only screen and (min-width: 768px){
+    .address{
+        font-size: 1rem;
+    }
+}
+
+@media print{
+    .address{
+        font-size: 1rem;
+    }
+}
+
+/*
+. will represent targeting of a class
+# will represent targeting of an ID
+nothing before will target every element with that name regardless 
+*/
